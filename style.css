@@ -1,0 +1,485 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Impact,'Arial Narrow Bold';
+}
+body {
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    background-image: url(images/q.jpg);
+    background-size: cover;
+    color: aliceblue;
+    font-size: 20px;
+    text-transform: uppercase;
+    text-decoration-line: none;
+}
+.navbar {
+    width: 85%;
+    margin: auto;
+    padding: 30px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header{
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px;
+    background: rgb(72, 36, 171);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navbar{
+    width: 85%;
+    height: fit-content;
+    margin: auto;
+    display: flex;
+    align-items: center;
+}
+.navbar ul li {
+    list-style: none;
+    display: inline-flex;
+    position: absolute;
+    margin: 0 30px;
+    font-weight: 300;
+    position: relative;
+}
+.navbar ul li a{
+    font-size: 20px;
+    margin: auto;
+    font-weight: 500;
+    text-decoration: none;
+    color: rgb(0, 221, 255);
+    text-transform: uppercase;
+    transition: 0.3s ease;
+    stroke: blue;
+}
+.navbar a:hover,
+.navbar a.active {
+    color: rgb(253, 156, 29);
+    font-weight: 500;
+}
+.home {
+    position: relative;
+    padding: 0%;
+    width: auto;
+    text-align: center;
+    color: rgb(210, 210, 36);
+}
+.home-content h2 {
+    height: max-content;
+    font-style: normal;
+    font-family: 'Franklin Gothic Medium','Arial Narrow Bold';
+    text-align: center;
+    font-size: 100px;
+    letter-spacing: 10px;
+    float: unset;
+    font-weight: bold;
+}
+.home-content p {
+    margin: auto;
+    font-style: italic;
+    font-family: 'Franklin Gothic', 'Arial Narrow Bold';
+    text-align: center;
+    font-weight: 500px;
+    text-transform: none;
+}
+.picture {
+    width: 55px;
+    align-items: center;
+    text-align: center;
+}
+.home picture {
+    background-image: linear-gradient(
+    to bottom,
+    rgba(255, 255, 0, 0.5),
+    rgba(0, 0, 255, 0.5)
+  ), url("images/q.jpg");
+
+ /* Global values */
+ background-image: inherit;
+ background-image: initial;
+ background-image: revert;
+ background-image: revert-layer;
+ background-image: unset;
+
+}
+.bn1 {
+    padding: 0.10rem 2.5rem;
+    border: 1px solid #ffffff;
+    margin-top: 400px;
+    margin-left: 653px;
+    border-radius: 0.12rem;
+    box-sizing: content-box;
+    text-decoration: none;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    color: #e4e932;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.2s ease;
+} 
+.bn1:hover {
+    color: #000000;
+    background-color: #ffffff;
+}
+.fake-list {
+    width: 1200;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    display: list-item;
+    list-style-position: inside;
+}
+.card {
+    font-family: 'Franklin Gothic Medium','Arial Narrow Bold';
+    height: max-content;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.0);
+    transition: 0.3s;
+    width: 35%;
+    border-radius: 6px;
+    align-items: center;
+    text-align: center;
+    justify-items: center;
+}
+  
+.card:hover {
+    box-shadow: 0 0px 0px 0 rgba(0,0,0,0.2);
+}
+  
+.container {
+    padding: 2px 16px;
+}
+
+.container h2 {
+    font-family: 'Franklin Gothic Medium','Arial Narrow Bold';
+    height: 21;
+    font-weight: 400;
+    color: #e4e932;
+
+}
+.container p {
+    font-family: 'Franklin Gothic Medium','Arial Narrow Bold';
+    font-weight: 300;
+    font-style: normal;
+    color: #e4e932;
+}
+
+.container h1 {
+    font-family: 'Franklin Gothic Medium','Arial Narrow Bold';
+    margin-top: 32px;
+    font-size: 30px;
+    height: 23px;
+    text-transform: uppercase;
+    text-align: center;
+    justify-items: center;
+    color: #e4e932;
+}
+.container h3 {
+   font-family: 'Franklin Gothic Medium','Arial Narrow Bold';
+   font-size: 30px;
+   margin: 1px;
+   text-transform: uppercase;
+   text-align: center;
+   justify-items: center;
+   color: #e4e932;
+}
+.container p {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow';
+    font-style: normal;
+    text-transform: uppercase;
+    text-align: center;
+    color: #e4e932;
+}
+.container img {
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    text-align: center;
+    width: 40px;
+}
+.family .background{
+    justify-content: center;
+    width: fit-content;
+}
+.family-content {
+    text-align: center;
+    justify-content: center;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: row;
+    gap: 15px;
+} 
+.cards .darkblue {
+    background-color: darkblue;
+    font-size: x-large;
+}
+.cards .red {
+    background-color: red;
+    font-size: x-large;
+}
+ 
+.cards .blue {
+    background-color: blue;
+    font-size: x-large;
+}
+  
+.cards .green {
+    background-color: green;
+    font-size: x-large;
+}
+
+.cards .orange {
+    background-color: orange;
+    font-size: x-large;
+}
+
+.cards .darkgrey {
+    background-color: darkgrey;
+    font-size: x-large;
+}
+
+.cards .card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    height: 120px;
+    width: 350px;
+    border-radius: 10px;
+    color: white;
+    cursor: pointer;
+    transition: 400ms;
+}
+
+.cards .card p.tip {
+    color: rgb(234, 241, 241);
+    font-size: 1em;
+    font-weight: 500;
+} 
+
+.cards .card p.second-text {
+    font-size: .7em;
+}
+
+.cards .card p.third-text {
+    font-size: .7em;
+}
+
+.cards .card:hover {
+    transform: scale(1.1, 1.1);
+}
+
+.cards:hover > .card:not(:hover) {
+    filter: opacity(10px);
+    transform: scale(0.9, 0.9);
+}
+
+.loader {
+    width: 150px;
+    height: 150px;
+    margin-top: 25px;
+    margin-left: 680px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    place-content: center;
+}
+  
+.loader_cube {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 30px;
+}
+  
+.loader_cube--glowing {
+    z-index: 2;
+    background-color: rgba(255, 255, 255, 0.2);
+    border: 2px solid rgba(255, 255, 255, 0.3);
+}
+  
+.loader_cube--color {
+    z-index: 1;
+    filter: blur(2px);
+    background: linear-gradient(135deg, #1afbf0, #da00ff);
+    animation: loadtwo 2.7s ease-in-out infinite;
+}
+  
+  @keyframes loadtwo {
+    50% {
+      transform: rotate(-75deg);
+    }
+}
+
+.hobbies {
+    margin-top: 0%;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    flex-direction: row;
+    color: yellow;
+}
+
+.hobbies li {
+    margin: auto;
+    font-weight: bold;
+    font-size: 45px;
+    font-style: normal;
+    flex-direction: row;
+}
+.hobbies:hover {
+    color: #f3e821;
+    transition: all 0.6 ease-in-out;
+    animation-fill-mode: both;
+}
+
+.skillandtalent {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    font-family:  Georgia, 'Times New Roman', Times, serif;
+    text-transform: none;
+}
+
+.skillandtalent .text-animate {
+    width: 40rem;
+}
+
+.skillandtalent .text-animate h1 {
+    align-items: center;
+    text-align: center;
+    margin: 5px;
+    font-size: 45px;
+    font-weight: 600;
+    color: #e4e932;
+}
+
+.skillandtalent p {
+    margin-top: 150px;
+    font-size: 35px;
+    font-weight: 400;
+    text-align: left;
+    align-items: baseline;
+    font-family:  Georgia, 'Times New Roman', Times, serif;;
+}
+
+.skillandtalent p {
+    margin-top: 26px;
+    font-size: 35px;
+    font-weight: 400;
+}
+
+.card-skill {
+    margin-left: 989px;
+    width: 192px;
+    height: 250px;
+    border-radius: 20px;
+    padding: 2px;
+    box-shadow: #111 0 1px 3px 2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    position: relative;
+    cursor: pointer;
+}
+  
+.card__content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(0deg, #000, #272727);
+    color: #fff;
+    border-radius: 17px;
+    width: 100%;
+    height: 100%;
+    font-size: 20px;
+    font-weight: 900;
+}
+
+.card__content img {
+    width: 186px;
+    border-radius: 20px;
+}
+  
+.strength {
+    font-family: 'Gill Sans', 'Gill Sans MT','Trebuchet MS', sans-serif;
+    text-align: center;
+    align-items: center;
+    color: #f3e821;
+}
+.strength h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 5px;
+    font-size: 50px;
+    color: #1afbf0;
+    font-weight: 500;
+}
+
+.strength p {
+    background-color: #272727;
+    border-style: inset;
+    border-color: #c10606; 
+    border-radius: 20px;
+    text-align: center;
+    font-size: 45px;
+    margin: 2px;
+    padding: 7px;
+    width: 40%;
+    margin-left: 443px;
+}
+
+.strength h2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 5px;
+    font-size: 50px;
+    color:  rgb(255, 145, 2);
+    font-weight: 500;
+}
+
+.career {
+    font-family: 'Franklin Gothic Medium','Arial Narrow Bold';
+    color: #e4e932;
+    padding: 0;
+    margin: 20px;
+}
+
+.career-content {
+  background-image: url("images/f.jpg");
+  background-size: cover;
+  border-image: 20px;
+  position: relative;
+  height: 610px;
+}
+
+.text {
+    background-color: rgba(255, 255, 255, 0.83);
+    color:black;
+    font-size: 100px; 
+    font-weight: bold;
+    margin: 26px;
+    padding: 10px;
+    width: 50%;
+    letter-spacing: 8px;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    mix-blend-mode: hard-light;
+}
